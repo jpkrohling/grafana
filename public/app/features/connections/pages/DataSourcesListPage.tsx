@@ -1,10 +1,10 @@
 import * as React from 'react';
 
 import { Page } from 'app/core/components/Page/Page';
-import { DataSourceAddButton } from 'app/features/datasources/components/DataSourceAddButton';
 import { getDataSourcesCount } from 'app/features/datasources/state';
 import { StoreState, useSelector } from 'app/types';
 
+import { DataSourceAddButton } from '../components/DataSourceAddButton';
 import { DataSourcesList } from '../components/DataSourcesList';
 
 export function DataSourcesListPage() {
